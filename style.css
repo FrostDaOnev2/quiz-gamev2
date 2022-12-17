@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(140, 140, 245);
+}
+
+#game {
+    margin: auto;
+    margin-top: 25vh;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#start {
+    width: 150px;
+    height: 70px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: #fffafa;
+    margin-top: 5vh;
+    font-size: large;
+    font-weight: 900;
+}
+
+#start:hover {
+    cursor: pointer;
+}
+
+#start:active {
+    background-color: #156cdf;
+}
+
+#header {
+    font-weight: 900;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+    margin-top: 0vh;
+    background-attachment: fixed;
+}
+
+#q1 {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+#next, #next2, #next3, #next4, #next5  {
+    width: 500px;
+    height: 63px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius:  0 0 5px 5px;
+    color: #fffafa;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 9px;
+}
+
+#next:hover, #next2:hover, #next3:hover, #next4:hover, #next5:hover {
+    cursor:pointer;
+}
+
+#next:active, #next2:active, #next3:active, #next4:active, #next5:active {
+    background-color: #156cdf;
+}
+
+#o1 {
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+    background-attachment: fixed;
+    top: 0;
+    margin-left: 15px;
+}
+
+#showscore {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+    margin-top: 0vh;
+    background-attachment: fixed;
+    margin-left: 17%;
+}
